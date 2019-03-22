@@ -1,9 +1,9 @@
 # NLP Project on Subject Based Banding/Streaming News
-This is a small project on web scraping and various NLP techniques. The objective is to apply several techniques such as sentiment analysis and topic modelling on comments on the recent news on streaming and subject based banding and what insights might come out of the techniques on local news. It is not meant for arguing for or against policy(ies).
+This is a small project on web scraping and various NLP techniques. The objective is to apply several techniques such as sentiment analysis and topic modeling on comments on the recent news on streaming and subject based banding and discover insights from these techniques on local news. It is not meant for arguing for or against policy(ies).
 <br>
 <br>
 ## Data
-I scraped comments and replies to comments from 4 yahoo new articles and polls related to recent news about streaming and the incoming subject based banding (which contrary to popular belief, is not a sudden move. It has been trialled in schools for some years.). While the total number of comments and replies are not very large, the choice was due to my personal interest in the matter, both as a Singaporean and having been an educator.
+I scraped comments and replies to comments from 4 yahoo new articles and polls related to recent news about streaming and the incoming subject based banding (which contrary to popular belief, is not a sudden move. It has been trialled in schools for some years.). While the total number of comments and replies are not very large and has great selection bias, the choice was due to my personal interest in the matter, both as a Singaporean and having been an educator.
 <br>
 <br>
 ## Part 1: VADER Sentiment Analysis
@@ -15,4 +15,5 @@ Hutto, C.J. & Gilbert, E.E. (2014). VADER: A Parsimonious Rule-based Model for S
 Github link: https://github.com/cjhutto/vaderSentiment
 <br>
 <br>
-## Part 2 and beyond: WIP
+## Part 2 Topic Modeling (WIP)
+The aim of topic modeling was to see if comments could be clustered amongst similar themes. Using sci-kit learn's Latent Dirichlet Allocation, the comments could be clustered into two main topics; politics and education. Slightly more than half of the comments were about the education system, streaming/subject based banding and social segregation while the rest are the comment sere directed more towards politics and the government.
