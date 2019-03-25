@@ -1,5 +1,5 @@
 # NLP Project on Subject Based Banding/Streaming News
-This is a small project on web scraping and various NLP techniques. The objective is to apply several techniques such as sentiment analysis and topic modeling on comments on the recent news on streaming and subject based banding and discover insights from these techniques on local news. It is not meant for arguing for or against policy(ies).
+This is a small project on web scraping and various NLP techniques. The objective is to apply several techniques such as sentiment analysis and topic modelling on comments on the recent news on streaming and subject based banding and discover insights from these techniques on local news. It is not meant for arguing for or against policy(ies).
 <br>
 <br>
 ## Data
@@ -15,5 +15,5 @@ Hutto, C.J. & Gilbert, E.E. (2014). VADER: A Parsimonious Rule-based Model for S
 Github link: https://github.com/cjhutto/vaderSentiment
 <br>
 <br>
-## Part 2 Topic Modeling (WIP)
-The aim of topic modeling was to see if comments could be clustered amongst similar themes. Using sci-kit learn's Latent Dirichlet Allocation, the comments could be clustered into two main topics; politics and education. Slightly more than half of the comments were about the education system, streaming/subject based banding and social segregation while the rest are the comment sere directed more towards politics and the government.
+## Part 2 Topic Modelling (WIP)
+The aim of topic modelling was to see if comments could be clustered by themes. Using sci-kit learn's Latent Dirichlet Allocation(LDA), the comments could be clustered into two main topics; politics and education. Slightly more than half of the comments were about the education system, streaming/subject based banding and social segregation while the rest of the comments were directed more towards politics and the government. Using sci-kit learn's Non-negative Matrix Factorization(NMF) gave similar results, with two main topics and slightly more than half of the comments being about education and social segregation while the rest were about politics and the government. Comparing how the models clustered the comments, about 78% of the comments were clustered similarly. For the remainder of the comments, that was no clear better model as some of the comments did not quite fall under either topic, some comments were more appropriately modelled by NMF but for others, LDA.
