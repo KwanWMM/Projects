@@ -20,5 +20,5 @@ Observations from the initial analysis:
 ## Models
 Logistic Regression, Support Vector Machine and Random Forest models were used together with pipelines to prevent data leakage during cross validation.
 
-#Conclusion
+## Conclusion
 The Random Forest classifier performed the best, with an F1 macro score of about 0.798. Since about split of participants was about 3:1, the baseline score for accuracy was already rather high and an F1-score might be a better representation of the performance of the models since it would take recall into account was well. With that said, the model did improve the baseline accuracy of 0.763 to 0.866. From the Random Forest model, the features that contributed most to distinguishing between the two salary bands were capital gain, marrying a civilian spouse, years of education and age.
